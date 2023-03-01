@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACADE8929AF65FC001162B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADE8829AF65FC001162B0 /* AppDelegate.swift */; };
+		0ACADE8B29AF65FC001162B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADE8A29AF65FC001162B0 /* SceneDelegate.swift */; };
+		0ACADE8D29AF65FC001162B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADE8C29AF65FC001162B0 /* ViewController.swift */; };
+		0ACADE9029AF65FC001162B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACADE8E29AF65FC001162B0 /* Main.storyboard */; };
+		0ACADE9229AF65FD001162B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACADE9129AF65FD001162B0 /* Assets.xcassets */; };
+		0ACADE9529AF65FD001162B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACADE9329AF65FD001162B0 /* LaunchScreen.storyboard */; };
+		0ACADEA029AF65FD001162B0 /* VideoPokerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADE9F29AF65FD001162B0 /* VideoPokerIOSTests.swift */; };
+		0ACADEAA29AF65FD001162B0 /* VideoPokerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADEA929AF65FD001162B0 /* VideoPokerIOSUITests.swift */; };
+		0ACADEAC29AF65FD001162B0 /* VideoPokerIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADEAB29AF65FD001162B0 /* VideoPokerIOSUITestsLaunchTests.swift */; };
+		0ACADEBC29AF6641001162B0 /* VideoPoker2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADEB829AF6641001162B0 /* VideoPoker2.swift */; };
+		0ACADEBD29AF6641001162B0 /* VideoPoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADEB929AF6641001162B0 /* VideoPoker.swift */; };
+		0ACADEBE29AF6641001162B0 /* CheckCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADEBA29AF6641001162B0 /* CheckCard.swift */; };
+		0ACADEBF29AF6641001162B0 /* CARD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACADEBB29AF6641001162B0 /* CARD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ACADE9C29AF65FD001162B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACADE7D29AF65FC001162B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACADE8429AF65FC001162B0;
+			remoteInfo = VideoPokerIOS;
+		};
+		0ACADEA629AF65FD001162B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACADE7D29AF65FC001162B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACADE8429AF65FC001162B0;
+			remoteInfo = VideoPokerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ACADE8529AF65FC001162B0 /* VideoPokerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPokerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACADE8829AF65FC001162B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ACADE8A29AF65FC001162B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0ACADE8C29AF65FC001162B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0ACADE8F29AF65FC001162B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ACADE9129AF65FD001162B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ACADE9429AF65FD001162B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ACADE9629AF65FD001162B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACADE9B29AF65FD001162B0 /* VideoPokerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPokerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACADE9F29AF65FD001162B0 /* VideoPokerIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPokerIOSTests.swift; sourceTree = "<group>"; };
+		0ACADEA529AF65FD001162B0 /* VideoPokerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPokerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACADEA929AF65FD001162B0 /* VideoPokerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPokerIOSUITests.swift; sourceTree = "<group>"; };
+		0ACADEAB29AF65FD001162B0 /* VideoPokerIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPokerIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACADEB829AF6641001162B0 /* VideoPoker2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPoker2.swift; sourceTree = "<group>"; };
+		0ACADEB929AF6641001162B0 /* VideoPoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPoker.swift; sourceTree = "<group>"; };
+		0ACADEBA29AF6641001162B0 /* CheckCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCard.swift; sourceTree = "<group>"; };
+		0ACADEBB29AF6641001162B0 /* CARD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CARD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ACADE8229AF65FC001162B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACADE9829AF65FD001162B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACADEA229AF65FD001162B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ACADE7C29AF65FC001162B0 = {
+			isa = PBXGroup;
+			children = (
+				0ACADE8729AF65FC001162B0 /* VideoPokerIOS */,
+				0ACADE9E29AF65FD001162B0 /* VideoPokerIOSTests */,
+				0ACADEA829AF65FD001162B0 /* VideoPokerIOSUITests */,
+				0ACADE8629AF65FC001162B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ACADE8629AF65FC001162B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACADE8529AF65FC001162B0 /* VideoPokerIOS.app */,
+				0ACADE9B29AF65FD001162B0 /* VideoPokerIOSTests.xctest */,
+				0ACADEA529AF65FD001162B0 /* VideoPokerIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ACADE8729AF65FC001162B0 /* VideoPokerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				0ACADE8829AF65FC001162B0 /* AppDelegate.swift */,
+				0ACADE8A29AF65FC001162B0 /* SceneDelegate.swift */,
+				0ACADE8C29AF65FC001162B0 /* ViewController.swift */,
+				0ACADEBB29AF6641001162B0 /* CARD.swift */,
+				0ACADEBA29AF6641001162B0 /* CheckCard.swift */,
+				0ACADEB929AF6641001162B0 /* VideoPoker.swift */,
+				0ACADEB829AF6641001162B0 /* VideoPoker2.swift */,
+				0ACADE8E29AF65FC001162B0 /* Main.storyboard */,
+				0ACADE9129AF65FD001162B0 /* Assets.xcassets */,
+				0ACADE9329AF65FD001162B0 /* LaunchScreen.storyboard */,
+				0ACADE9629AF65FD001162B0 /* Info.plist */,
+			);
+			path = VideoPokerIOS;
+			sourceTree = "<group>";
+		};
+		0ACADE9E29AF65FD001162B0 /* VideoPokerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACADE9F29AF65FD001162B0 /* VideoPokerIOSTests.swift */,
+			);
+			path = VideoPokerIOSTests;
+			sourceTree = "<group>";
+		};
+		0ACADEA829AF65FD001162B0 /* VideoPokerIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACADEA929AF65FD001162B0 /* VideoPokerIOSUITests.swift */,
+				0ACADEAB29AF65FD001162B0 /* VideoPokerIOSUITestsLaunchTests.swift */,
+			);
+			path = VideoPokerIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ACADE8429AF65FC001162B0 /* VideoPokerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACADEAF29AF65FD001162B0 /* Build configuration list for PBXNativeTarget "VideoPokerIOS" */;
+			buildPhases = (
+				0ACADE8129AF65FC001162B0 /* Sources */,
+				0ACADE8229AF65FC001162B0 /* Frameworks */,
+				0ACADE8329AF65FC001162B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPokerIOS;
+			productName = VideoPokerIOS;
+			productReference = 0ACADE8529AF65FC001162B0 /* VideoPokerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ACADE9A29AF65FD001162B0 /* VideoPokerIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACADEB229AF65FD001162B0 /* Build configuration list for PBXNativeTarget "VideoPokerIOSTests" */;
+			buildPhases = (
+				0ACADE9729AF65FD001162B0 /* Sources */,
+				0ACADE9829AF65FD001162B0 /* Frameworks */,
+				0ACADE9929AF65FD001162B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACADE9D29AF65FD001162B0 /* PBXTargetDependency */,
+			);
+			name = VideoPokerIOSTests;
+			productName = VideoPokerIOSTests;
+			productReference = 0ACADE9B29AF65FD001162B0 /* VideoPokerIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0ACADEA429AF65FD001162B0 /* VideoPokerIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACADEB529AF65FD001162B0 /* Build configuration list for PBXNativeTarget "VideoPokerIOSUITests" */;
+			buildPhases = (
+				0ACADEA129AF65FD001162B0 /* Sources */,
+				0ACADEA229AF65FD001162B0 /* Frameworks */,
+				0ACADEA329AF65FD001162B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACADEA729AF65FD001162B0 /* PBXTargetDependency */,
+			);
+			name = VideoPokerIOSUITests;
+			productName = VideoPokerIOSUITests;
+			productReference = 0ACADEA529AF65FD001162B0 /* VideoPokerIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ACADE7D29AF65FC001162B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0ACADE8429AF65FC001162B0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0ACADE9A29AF65FD001162B0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0ACADE8429AF65FC001162B0;
+					};
+					0ACADEA429AF65FD001162B0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0ACADE8429AF65FC001162B0;
+					};
+				};
+			};
+			buildConfigurationList = 0ACADE8029AF65FC001162B0 /* Build configuration list for PBXProject "VideoPokerIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ACADE7C29AF65FC001162B0;
+			productRefGroup = 0ACADE8629AF65FC001162B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ACADE8429AF65FC001162B0 /* VideoPokerIOS */,
+				0ACADE9A29AF65FD001162B0 /* VideoPokerIOSTests */,
+				0ACADEA429AF65FD001162B0 /* VideoPokerIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ACADE8329AF65FC001162B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACADE9529AF65FD001162B0 /* LaunchScreen.storyboard in Resources */,
+				0ACADE9229AF65FD001162B0 /* Assets.xcassets in Resources */,
+				0ACADE9029AF65FC001162B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACADE9929AF65FD001162B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACADEA329AF65FD001162B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ACADE8129AF65FC001162B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACADEBE29AF6641001162B0 /* CheckCard.swift in Sources */,
+				0ACADE8D29AF65FC001162B0 /* ViewController.swift in Sources */,
+				0ACADE8929AF65FC001162B0 /* AppDelegate.swift in Sources */,
+				0ACADEBF29AF6641001162B0 /* CARD.swift in Sources */,
+				0ACADEBC29AF6641001162B0 /* VideoPoker2.swift in Sources */,
+				0ACADE8B29AF65FC001162B0 /* SceneDelegate.swift in Sources */,
+				0ACADEBD29AF6641001162B0 /* VideoPoker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACADE9729AF65FD001162B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACADEA029AF65FD001162B0 /* VideoPokerIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACADEA129AF65FD001162B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACADEAC29AF65FD001162B0 /* VideoPokerIOSUITestsLaunchTests.swift in Sources */,
+				0ACADEAA29AF65FD001162B0 /* VideoPokerIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ACADE9D29AF65FD001162B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACADE8429AF65FC001162B0 /* VideoPokerIOS */;
+			targetProxy = 0ACADE9C29AF65FD001162B0 /* PBXContainerItemProxy */;
+		};
+		0ACADEA729AF65FD001162B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACADE8429AF65FC001162B0 /* VideoPokerIOS */;
+			targetProxy = 0ACADEA629AF65FD001162B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0ACADE8E29AF65FC001162B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACADE8F29AF65FC001162B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ACADE9329AF65FD001162B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACADE9429AF65FD001162B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ACADEAD29AF65FD001162B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ACADEAE29AF65FD001162B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ACADEB029AF65FD001162B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoPokerIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VideoPoker.VideoPokerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ACADEB129AF65FD001162B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoPokerIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VideoPoker.VideoPokerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0ACADEB329AF65FD001162B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VideoPoker.VideoPokerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPokerIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoPokerIOS";
+			};
+			name = Debug;
+		};
+		0ACADEB429AF65FD001162B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VideoPoker.VideoPokerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPokerIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoPokerIOS";
+			};
+			name = Release;
+		};
+		0ACADEB629AF65FD001162B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VideoPoker.VideoPokerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoPokerIOS;
+			};
+			name = Debug;
+		};
+		0ACADEB729AF65FD001162B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VideoPoker.VideoPokerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoPokerIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ACADE8029AF65FC001162B0 /* Build configuration list for PBXProject "VideoPokerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACADEAD29AF65FD001162B0 /* Debug */,
+				0ACADEAE29AF65FD001162B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACADEAF29AF65FD001162B0 /* Build configuration list for PBXNativeTarget "VideoPokerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACADEB029AF65FD001162B0 /* Debug */,
+				0ACADEB129AF65FD001162B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACADEB229AF65FD001162B0 /* Build configuration list for PBXNativeTarget "VideoPokerIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACADEB329AF65FD001162B0 /* Debug */,
+				0ACADEB429AF65FD001162B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACADEB529AF65FD001162B0 /* Build configuration list for PBXNativeTarget "VideoPokerIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACADEB629AF65FD001162B0 /* Debug */,
+				0ACADEB729AF65FD001162B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ACADE7D29AF65FC001162B0 /* Project object */;
+}
